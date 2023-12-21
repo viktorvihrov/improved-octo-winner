@@ -1,0 +1,14 @@
+    init(initial: AppState,
+         reducer: AppReducerProtocol,
+         backgroundRemoval: BackgroundRemovalProtocol) {
+        
+        self.state = initial
+        self.reducer = reducer
+        self.backgroundRemoval = backgroundRemoval
+    }
+            zPosition: 0,
+            blendMode: .normal,
+            blur: .none,
+            adjustments: .defaultAdjustments,
+            transforms: .init()
+        )
